@@ -24,4 +24,4 @@ Technologies Used:
 This project was built as part of my machine learning learning journey to gain a deeper understanding of how regression models work internally.
 
 
-The model showed relatively high prediction error because used-car prices depend on several factors that were not available in the dataset. The project's goal was to implement and understand linear regression from scratch rather than achieve state-of-the-art accuracy.
+To keep the focus on understanding and implementing Linear Regression from scratch, only a small set of numerical features (year, odometer reading, and car age) was used in this project. Many additional features available in the dataset, such as manufacturer, model, fuel type, transmission, and vehicle condition, were intentionally excluded to avoid introducing categorical feature encoding and additional preprocessing complexity. The primary objective of this project was to learn the fundamentals of feature scaling, gradient descent, cost optimization, and model evaluation rather than maximize predictive performance.
